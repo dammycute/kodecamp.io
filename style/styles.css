@@ -267,10 +267,12 @@ form input{
 
     #hamburger{
         display: block;
+        cursor: pointer;
     }
 
     #cancel{
         display: none;
+        cursor: pointer;
     }
 
     .offer-ctn{

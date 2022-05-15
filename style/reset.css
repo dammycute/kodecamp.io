@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    list-style: none;
+    font-family: poppins;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --primary-color: #FF6433;
+    --secondary-color: #F2F2F2;
+    --secondary-tint-color: #E2E6E9;
+    --accent-color: #661CE7;
+   
+}
+
+small{
+    color: #858585;
+}
+
+button{
+    background-color: var(--primary-color);
+    padding: 12px 22px;
+    border-radius: 7px;
+    color: #fff;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: xx-large;
+    padding: 1.4rem;
+}
+
+@media screen and (max-width: 900px) {
+    .container{
+        width:90%;
+    }
+}
